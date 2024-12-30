@@ -1,0 +1,113 @@
+.feedbackContainer {
+  background-color: transparent;
+  width: 100%;
+  color: black;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.closeIcon {
+  font-size: 18px;
+  cursor: pointer;
+  color: black;
+  transition: color 0.3s;
+}
+
+.closeIcon:hover {
+  color: black;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  overflow: hidden;
+  position: relative;
+}
+
+.feedbackInput {
+  padding: 0 50px 0 20px;
+  font-size: 16px;
+  height: 50px;
+  margin: 0 auto;
+  border: none;
+  width: 100%;
+  border: 1px black solid;
+  background-color: transparent
+}
+.feedbackInput::placeholder {
+  opacity: 0.5;
+}
+
+.sendButton {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sendIcon {
+  font-size: 24px;
+  color: black;
+  transition: color 0.3s;
+}
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header p {
+    font-size: 14px;
+  }
+
+  .description {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .feedbackInput {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .sendIcon {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .feedbackContainer {
+    margin-bottom: 10px;
+  }
+
+  .feedbackInput {
+    font-size: 12px;
+    padding: 8px;
+  }
+  .description{
+    font-size: 12px;
+  }
+
+  .sendButton {
+    padding: 5px;
+  }
+
+  .sendIcon {
+    font-size: 18px;
+  }
+}

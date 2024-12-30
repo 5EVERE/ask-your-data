@@ -1,0 +1,139 @@
+.optionContainer {
+  width: 40%;
+  height: 100%;
+  padding-top: 30px;
+  padding-left: 15%;
+}
+.container {
+  padding: 20px 40px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.breadcrumb {
+  font-size: 0.9rem;
+  color: #0a9dc1;
+  margin-bottom: 50px;
+}
+
+.highlight {
+  color: #0a9dc1;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.settingRow {
+  margin-bottom: 30px;
+}
+
+.settingRow label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.inputBox {
+  background-color: #eff9fc;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.dropdownContainer {
+  position: relative;
+}
+
+.selectBox {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #eff9fc;
+  font-size: 16px;
+  appearance: none;
+}
+
+.arrowIcon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #000;
+  pointer-events: none;
+}
+
+@media (max-width: 1024px) {
+    .optionContainer {
+      width: 60%;
+      padding-left: 5%;
+    }
+    .container {
+      padding: 20px;
+    }
+    .title {
+      font-size: 1.1rem;
+    }
+    .breadcrumb {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .optionContainer {
+      width: 90%;
+      padding-left: 5%;
+      padding-top: 15px;
+    }
+    .container {
+      padding: 10px 15px;
+    }
+    .title {
+      font-size: 1rem;
+      margin-bottom: 30px;
+    }
+    .settingRow {
+      margin-bottom: 20px;
+    }
+    .breadcrumb {
+      font-size: 0.8rem;
+      margin-bottom: 20px;
+    }
+    .inputBox,
+    .selectBox {
+      padding: 8px;
+      font-size: 14px;
+    }
+    .arrowIcon {
+      font-size: 14px;
+      right: 10px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .optionContainer {
+      width: 100%;
+      padding: 0 5%;
+      padding-top: 10px;
+    }
+    .container {
+      padding: 10px;
+    }
+    .title {
+      font-size: 0.9rem;
+      margin-bottom: 20px;
+    }
+    .breadcrumb {
+      font-size: 0.7rem;
+    }
+    .inputBox,
+    .selectBox {
+      padding: 6px;
+      font-size: 12px;
+    }
+    .arrowIcon {
+      font-size: 12px;
+      right: 8px;
+    }
+  }

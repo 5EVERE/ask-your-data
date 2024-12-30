@@ -1,0 +1,23 @@
+{
+    "breadcrumb": "Espaces de travail",
+    "addWorkspace": "Ajouter un espace de travail",
+    "workspaceName": "Nom de l'espace de travail",
+    "workspaceAdmins": "Administrateurs de l'espace de travail",
+    "addWorkspaceAdmin": "Ajouter un administrateur d'espace",
+    "adminEmailPlaceholder": "Adresse e-mail de l'administrateur",
+    "addButton": "Ajouter",
+    "knowledgeGraph": "Graphe de connaissances",
+    "knowledgeGraph1": "Graphe de connaissances 1",
+    "knowledgeGraph2": "Graphe de connaissances 2",
+    "workspaceType": "Type d'espace de travail",
+    "private": "Privé",
+    "public": "Public",
+    "backButton": "Retour",
+    "addWorkspaceButton": "Ajouter un espace de travail",
+    "workspacesList": {
+      "leadGeneration": "Génération de prospects et marketing",
+      "insuranceManagement": "Gestion des assurances",
+      "contractManagement": "Gestion des contrats"
+    }
+  }
+  

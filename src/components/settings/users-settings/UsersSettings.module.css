@@ -1,0 +1,246 @@
+.container {
+    padding: 20px 40px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding-right: 400px;
+  }
+  
+  .breadcrumb {
+    font-size: 0.9rem;
+    color: #0A9DC1;
+    margin-bottom: 50px;
+  }
+  
+  .highlight {
+    color: #0A9DC1;
+    font-weight: 500;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    margin-bottom: 50px;
+    max-height: 60vh;
+    overflow-y: auto; 
+    display: block;
+  }
+
+  .table th, .table td {
+    padding: 15px 15px;
+    text-align: left;
+    border-bottom: 1px solid #E0E0E0;
+  }
+  
+  .table th {
+    color: #0A9DC1;
+    font-weight: 600;
+    border-bottom: 1px solid #0A9DC1;
+  }
+  
+  .table td {
+    color: black;
+  }
+  
+  .editIcon {
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .table tr:hover {
+    background-color: #EFF9FC;
+  }
+  
+  .newUserButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid #0A9DC1;
+    background-color: transparent;
+    color: #0A9DC1;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  
+  .newUserButton:hover {
+    background-color: #C6E2E9;
+    color: #333;
+  }
+  .optionContainer{
+    width: 75%;
+    height: 100%;
+    padding-top:30px;
+    padding-left: 15%;
+}
+
+@media (max-width: 1200px) {
+    .container {
+      padding: 20px 20px;
+      padding-right: 200px;
+    }
+  
+    .optionContainer {
+      width: 85%;
+      padding-left: 10%;
+    }
+  
+    .table th,
+    .table td {
+      padding: 10px 10px;
+      font-size: 0.85rem;
+    }
+  
+    .newUserButton {
+      font-size: 0.8rem;
+      padding: 8px 15px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .container {
+      padding: 15px 10px;
+      padding-right: 100px;
+    }
+  
+    .optionContainer {
+      width: 100%;
+      padding-left: 5%;
+      padding-top: 20px;
+    }
+  
+    .title {
+      font-size: 1rem;
+      margin-bottom: 30px;
+    }
+  
+    .table {
+      font-size: 0.8rem;
+    }
+  
+    .table th,
+    .table td {
+      padding: 8px 5px;
+    }
+  
+    .editIcon {
+      font-size: 18px;
+    }
+  
+    .newUserButton {
+      font-size: 0.8rem;
+      padding: 8px 12px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+      padding-right: 0;
+    }
+  
+    .optionContainer {
+      width: 100%;
+      padding-left: 0;
+      padding-top: 10px;
+    }
+  
+    .title {
+      font-size: 0.9rem;
+      margin-bottom: 20px;
+    }
+  
+    .breadcrumb {
+      font-size: 0.8rem;
+      margin-bottom: 30px;
+    }
+  
+    .table th,
+    .table td {
+      font-size: 0.75rem;
+      padding: 5px 5px;
+    }
+  
+    .editIcon {
+      font-size: 16px;
+    }
+  
+    .newUserButton {
+      font-size: 0.75rem;
+      padding: 6px 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .title {
+      font-size: 0.8rem;
+      margin-bottom: 15px;
+    }
+  
+    .breadcrumb {
+      font-size: 0.7rem;
+      margin-bottom: 20px;
+    }
+  
+    .table {
+      font-size: 0.7rem;
+      margin-bottom: 10px;
+    }
+  
+    .table th,
+    .table td {
+      padding: 4px 3px;
+    }
+  
+    .editIcon {
+      font-size: 14px;
+    }
+  
+    .newUserButton {
+      font-size: 0.7rem;
+      padding: 5px 8px;
+    }
+  
+    .optionContainer {
+      padding-top: 5px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .container {
+      padding: 5px;
+    }
+  
+    .title {
+      font-size: 0.7rem;
+    }
+  
+    .breadcrumb {
+      font-size: 0.65rem;
+      margin-bottom: 15px;
+    }
+  
+    .table th,
+    .table td {
+      font-size: 0.6rem;
+      padding: 3px 2px;
+    }
+  
+    .newUserButton {
+      font-size: 0.6rem;
+      padding: 4px 6px;
+    }
+  
+    .editIcon {
+      font-size: 12px;
+    }
+  }

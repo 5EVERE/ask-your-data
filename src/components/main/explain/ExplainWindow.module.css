@@ -1,0 +1,222 @@
+
+.container {
+  position: relative;
+  width: 100%;
+  height: calc(100vh);
+  
+}
+
+.explainContainer {
+  position: absolute;
+  right: -800px;
+  min-width: 300px;
+  max-width: 1000px;
+  height: 100%;
+  top: 0;
+  background-color: white;
+  border-left: 1px solid #ddd;
+  transition: right 0.5s ease;
+  padding: 20px 100px;
+}
+.resizeHandle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 5px; 
+  cursor: ew-resize;
+  background-color: transparent;
+}
+
+.explainPanel {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.explainContainer.open {
+  right: 0;
+  padding: 20px 100px;
+}
+
+
+.arrowBtnHolder {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 70px;
+  background-color: white;
+  top: 50%;
+  left: -220px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.arrowBtnHolder p {
+  color: #FD719C;
+}
+.hide {
+  display: none;
+}
+
+.arrowBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px #FD719C solid;
+  cursor: pointer;
+  color: #FD719C;
+  font-size: 16px;
+  z-index: 10000;
+}
+
+@media(max-width: 1500px){
+  .explainContainer {
+    right: -600px;
+    max-width: 500px;
+  }
+  .explainContainer.open {
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .explainContainer {
+    position: absolute;
+    right: -400px;
+    min-width: 300px;
+    max-width: 400px;
+    height: 100%;
+    top: 0;
+    background-color: white;
+    border-left: 1px solid #ddd;
+    transition: right 0.5s ease;
+    padding: 20px 100px;
+  }
+  .explainContainer.open{
+    padding-right: 30px;
+  }
+  .arrowBtnHolder {
+    left: -200px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 992px) {
+  .explainContainer {
+    right: -500px;
+    min-width: 250px;
+    padding: 15px 20px;
+  }
+  .explainContainer.open{
+    padding-right: 20px;
+  }
+
+  .arrowBtnHolder {
+    left: -180px;
+    width: 180px;
+  }
+
+  .arrowBtn {
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .explainContainer {
+    right: -400px;
+    min-width: 100%;
+    max-width: 400px;
+    padding: 15px;
+  }
+
+  .explainContainer.open {
+    right: 0;
+    padding: 15px;
+    padding-left: 70px;
+  }
+
+  .arrowBtnHolder {
+    left: -100px;
+    width: 100px;
+    height: 50px;
+    display: none;
+  }
+
+  .arrowBtn {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+
+  }
+
+  .arrowBtnHolder p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .explainContainer {
+    right: -400px;
+    min-width: 100%;
+    max-width: 380px;
+    padding: 15px;
+  }
+
+  .explainContainer.open {
+    right: 0;
+    padding: 40px;
+  }
+
+  .arrowBtnHolder {
+    left: -80px;
+    width: 80px;
+    height: 40px;
+  }
+
+  .arrowBtn {
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+  }
+
+  .arrowBtnHolder p {
+    font-size: 10px;
+  }
+}
+
+@media(max-width: 380px){
+  .explainContainer{
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 320px) {
+  .explainContainer {
+    padding: 5px;
+    max-width: 350px;
+  }
+
+  .arrowBtnHolder {
+    width: 70px;
+    height: 35px;
+  }
+
+  .arrowBtn {
+    width: 15px;
+    height: 15px;
+    font-size: 8px;
+  }
+
+  .arrowBtnHolder p {
+    font-size: 8px;
+  }
+}

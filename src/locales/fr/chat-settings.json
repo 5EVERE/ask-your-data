@@ -1,0 +1,24 @@
+{
+  "title": "Paramètres de discussion",
+  "savedNotification": "Enregistré",
+  "precisionThreshold": "Seuil de précision",
+  "language": "Langue",
+  "systemRole": "Rôle du système",
+  "options": {
+    "precision": {
+      "high": "Élevé",
+      "medium": "Moyen",
+      "low": "Faible"
+    },
+    "languages": {
+      "english": "Anglais",
+      "french": "Français",
+      "german": "Allemand"
+    },
+    "roles": {
+      "legalExpert": "Expert en affaires juridiques",
+      "legalAdvisor": "Conseiller juridique",
+      "complianceManager": "Responsable de la conformité"
+    }
+  }
+}

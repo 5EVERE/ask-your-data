@@ -1,0 +1,190 @@
+.explainHeader {
+  margin-bottom: 30px;
+}
+.explainTitle {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fd719c;
+  margin-bottom: 10px;
+}
+.explainLine {
+  width: 100%;
+  height: 1px;
+  border: 1px solid #fd719c;
+  margin-bottom: 20px;
+}
+
+.explainMain {
+  max-height: calc(100vh - 250px);
+  overflow-y: auto;
+  padding-right: 20px;
+  scrollbar-color: #ccc transparent;
+}
+.mainGraph {
+  margin-bottom: 50px;
+}
+.mainTitle {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fd719c;
+  margin-bottom: 20px;
+}
+.graphBox {
+  width: 100%;
+  height: 300px;
+}
+
+.arrowBtn {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 45%;
+  left: 35px;
+  width: 30px;
+  height: 30px;
+  background-color: #fd719c;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.blur {
+  width: 30%;
+  height: 50px;
+  position: fixed;
+  bottom: 5%;
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(0.9px);
+  filter: blur(0.1px);
+  -webkit-backdrop-filter: blur(1px);
+  pointer-events: none;
+  z-index: 10;
+}
+.blur::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0)
+  );
+  filter: blur(15px);
+  pointer-events: none;
+}
+@media (max-width: 1200px) {
+  .explainMain {
+    height: 680px;
+  }
+}
+@media (max-width: 992px) {
+  .explainTitle {
+    font-size: 18px;
+  }
+
+  .mainTitle {
+    font-size: 14px;
+  }
+
+  .explainMain {
+    padding-right: 10px;
+  }
+
+  .graphBox {
+    height: 200px;
+  }
+
+  .arrowBtn {
+    top: 38%;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .graphBox {
+    height: 150px;
+  }
+
+  .explainMain{
+    height: 700px;
+  }
+  .arrowBtn {
+    top: 35%;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .blur {
+    width: 80%;
+    height: 40px;
+    bottom: 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .explainTitle {
+    font-size: 16px;
+  }
+  .explainMain{
+    height: 680px;
+  }
+  .mainTitle {
+    font-size: 12px;
+  }
+
+  .explainMain {
+    padding-right: 5px;
+  }
+
+  .graphBox {
+    height: 120px;
+  }
+
+  .arrowBtn {
+    top: 32%;
+    left: 5px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .blur {
+    width: 80%;
+    height: 40px;
+    bottom: 5%;
+  }
+}
+
+@media (max-width: 320px) {
+  .explainTitle {
+    font-size: 14px;
+  }
+
+  .mainTitle {
+    font-size: 10px;
+  }
+
+  .graphBox {
+    height: 100px;
+  }
+
+  .arrowBtn {
+    top: 30%;
+    left: 2px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .blur {
+    width: 90%;
+    height: 35px;
+    bottom: 0;
+  }
+}

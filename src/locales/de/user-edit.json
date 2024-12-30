@@ -1,0 +1,25 @@
+{
+    "breadcrumb": {
+      "accounts": "Konten",
+      "global": "Globale Einstellungen",
+      "editUser": "Benutzer bearbeiten"
+    },
+    "title": "Benutzer bearbeiten",
+    "form": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail-Adresse",
+      "status": "Status",
+      "statusOptions": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "connectedWorkspaces": "Verbundene Arbeitsbereiche"
+    },
+    "buttons": {
+      "back": "Zurück",
+      "save": "Einstellungen speichern",
+      "passwordReset": "Passwort zurücksetzen"
+    }
+  }
+  

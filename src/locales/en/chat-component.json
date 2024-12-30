@@ -1,0 +1,21 @@
+{
+  "heading": "I bet I can help you",
+  "subHeading": "Ask something like",
+  "quickQuestions": "Quick Questions",
+  "thankYouFeedback": "Thank you for your feedback!",
+  "askDataPlaceholder": "Ask Your Data",
+  "writePolicy": "Write policy",
+  "answerQuestion": "Answer question",
+  "summarizeDocument": "Summarize document",
+  "modalSaveFilters": "Save Filters",
+  "feedback_thank_you": "Thank you for your feedback!",
+  "feedback_dislike_message": "It would be greatly appreciated if you could share some more details, so I can improve. What would you have expected from my response?",
+  "letMeExplain": "Let me explain",
+
+  "filters": {
+    "title": "Filters",
+    "writingStyle": "Writing Style",
+    "dataSources": "Data Sources",
+    "default": "-"
+  }
+}

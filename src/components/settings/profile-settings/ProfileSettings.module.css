@@ -1,0 +1,124 @@
+.optionContainer{
+    width: 75%;
+    height: 100%;
+    padding-top: 100px;
+    padding-left: 15%;
+}
+
+.optionTitle{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.dropdown {
+    position: relative;
+    margin-right: 100px;
+  }
+  
+  .dropdown select {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    background-color: #EFF9FC;
+    width: 120px;
+    cursor: pointer;
+    height: 45px;
+    appearance: none;
+  }
+  .optionSelect label{
+    display: block;
+    width: 25%;
+  }
+  
+.optionSelect{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.language{
+    width: 150px !important;
+}
+.role{
+    width: 240px !important;
+}
+
+@media (max-width: 1200px) {
+  .optionContainer {
+    width: 85%;
+    padding-left: 10%;
+    padding-top: 60px;
+  }
+
+  .optionTitle {
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+
+  .dropdown {
+    margin-right: 50px;
+  }
+
+  .dropdown select {
+    width: 100px;
+    font-size: 14px;
+  }
+
+  .language {
+    width: 130px !important;
+  }
+
+  .role {
+    width: 200px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .optionContainer {
+    width: 95%;
+    padding-left: 5%;
+    padding-top: 40px;
+  }
+
+  .optionTitle {
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+
+  .dropdown {
+    margin-right: 30px;
+  }
+
+  .dropdown select {
+    width: 90px;
+    font-size: 13px;
+  }
+
+  .language {
+    width: 120px !important;
+  }
+
+  .role {
+    width: 180px !important;
+  }
+}
+@media (max-width: 480px) {
+  .optionTitle {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .optionSelect label{
+    font-size: 12px;
+    margin-right: 30px;
+  }
+  .dropdown select {
+    font-size: 11px;
+    padding: 6px;
+  }
+
+  .optionContainer {
+    padding-top: 10px;
+  }
+}

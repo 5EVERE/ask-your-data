@@ -1,0 +1,15 @@
+{
+    "title": "Espaces de travail",
+    "tableHeader": {
+      "workspaceName": "Nom de l'espace de travail"
+    },
+    "workspacesList": {
+      "leadGeneration": "Génération de leads et marketing",
+      "insuranceManagement": "Gestion des assurances",
+      "contractManagement": "Gestion des contrats",
+      "policyGuidance": "Conseils sur la politique et la réglementation",
+      "billingPayments": "Facturation et paiements"
+    },
+    "addWorkspaceButton": "Ajouter un espace de travail"
+  }
+  

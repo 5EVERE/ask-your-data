@@ -1,0 +1,107 @@
+.chatHistory {
+  padding: 20px;
+  padding-left: 15px;
+  overflow-y: scroll;
+  max-height: 100%;
+  position: relative;
+}
+
+.chatHistory::-webkit-scrollbar {
+  width: 10px;
+}
+
+.chatHistory::-webkit-scrollbar-thumb {
+  background-color: #c6e2e9;
+}
+
+.chatHistory::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.historyHeader {
+  position: sticky;
+  top: -20px;
+  background-color: #eff9fc;
+  z-index: 2;
+}
+
+.historyTitle {
+  font-weight: bold;
+  position: sticky;
+  margin-bottom: 20px;
+}
+.sectionLabel {
+  font-weight: bold;
+  color: #3acaee;
+}
+.chatButtons {
+  display: flex;
+  margin-bottom: 20px;
+}
+.myChatBtn {
+  font-weight: 500;
+  color: #0a9dc1;
+  height: 40px;
+  width: 80px;
+  border: 1px solid #0a9dc1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.workspaceBtn {
+  font-weight: 500;
+  color: #0a9dc1;
+  height: 40px;
+  width: 150px;
+  border: 1px solid #0a9dc1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+}
+.activeBtn {
+  color: white;
+  background-color: #0a9dc1;
+}
+
+.chatSection {
+  margin-bottom: 50px;
+}
+
+.chatSectionWeek {
+  margin-bottom: 20px;
+}
+
+.chatItem {
+  position: relative;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+}
+
+.deleteHistoryItem {
+  position: absolute;
+  padding-left: 20px;
+  right: 0px;
+  top: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.chatItem p {
+  margin: 0;
+  padding-right: 15px;
+  font-size: 14px;
+  line-height: 1.5;
+  background: linear-gradient(to right, black 80%, rgba(255, 255, 255, 0));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+}

@@ -1,0 +1,492 @@
+.section {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  position: absolute;
+  width: 45%;
+  margin: 0 auto;
+  height: calc(100vh - 90px);
+  padding-top: 5%;
+}
+
+.container.explain {
+  margin-right: 700px;
+}
+.heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.subHeading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.quickQuestions {
+  margin-bottom: 100px;
+}
+
+.quickQuestion {
+  margin: 0 auto;
+  width: 80%;
+  height: 60px;
+  border: 1px solid #fd719c;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fd719c;
+  cursor: pointer;
+  text-align: center;
+}
+.chatOption {
+  margin-bottom: 30px;
+}
+.activeChat {
+  position: fixed;
+  bottom: 40px;
+  width: 45%;
+}
+.inputs {
+  position: relative;
+  display: flex;
+}
+
+.settings {
+  position: absolute;
+  left: -20px;
+  height: 60px;
+  width: 60px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  cursor: pointer;
+}
+
+.input {
+  display: block;
+  padding: 0 60px 0 20px;
+  font-size: 16px;
+  font-weight: 500;
+  height: 60px;
+  margin: 0 auto;
+  border: none;
+  width: 80%;
+  outline: #3acaee;
+}
+.input::placeholder {
+  opacity: 0.5;
+}
+
+.informations {
+  display: flex;
+  justify-content: space-between;
+}
+.information {
+  font-weight: 500;
+  color: #0a9dc1;
+  height: 45px;
+  text-align: center;
+  width: 30%;
+  border: 1px solid #0a9dc1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.handleIcons {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+  padding-right: 20px;
+}
+.handleIcons button {
+  border: none;
+  background-color: transparent;
+  color: #0a9dc1;
+  cursor: pointer;
+}
+.shareBtn {
+  margin-right: 20px;
+}
+
+.chattingContainer {
+  height: calc(100vh - 400px);
+  width: 100%;
+  background-color: transparent;
+}
+
+.chatWindow {
+  position: fixed;
+  width: 45%;
+  padding: 0 5%;
+  overflow-y: auto;
+  height: 70%;
+}
+.filtersDate {
+  opacity: 0.5;
+  margin-bottom: 0;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.userMessage {
+  position: relative;
+  align-self: flex-end;
+  background-color: #c6e2e9;
+  padding: 20px 30px;
+  font-size: 16px;
+  color: black;
+  max-width: 70%;
+  min-width: 10%;
+  text-align: left;
+  word-wrap: break-word;
+  margin-bottom: 30px;
+}
+
+.userMessage::after {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+  border-right: 40px solid transparent;
+  border-top: 20px solid #c6e2e9;
+  transform: scaleX(-1);
+}
+
+.botMessage {
+  position: relative;
+  align-self: flex-start;
+  background-color: white;
+  padding: 20px 30px;
+  font-size: 16px;
+  color: black;
+  max-width: 70%;
+  text-align: left;
+  word-wrap: break-word;
+  margin-bottom: 30px;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+.botMessage::after {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  border-right: 40px solid transparent;
+  border-top: 20px solid #fff;
+}
+
+.skeleton {
+  border: none;
+}
+.skeleton:hover {
+  border: none;
+}
+
+.pinIcon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -40px;
+  font-size: 22px;
+  color: #0a9dc1;
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+.userMessage:hover .pinIcon {
+  opacity: 1;
+}
+.pinnedIcon {
+  opacity: 1;
+}
+
+.pinWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.chatCircle {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: conic-gradient(#fd719c var(--progress), #ffffff var(--progress));
+}
+
+.botAnswer:hover .chatCircle {
+  background: conic-gradient(#f5b1c5 var(--progress), #ffffff var(--progress));
+}
+
+.centreCircle {
+  width: 14px;
+  height: 14px;
+  background-color: #dce9ed;
+  border-radius: 50%;
+}
+
+.skeletonMessage {
+  width: fit-content;
+  padding: 8px 12px;
+  color: #888;
+  font-style: italic;
+  border-radius: 10px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.arrowBtn {
+
+  position: absolute;
+  display: flex;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px #fd719c solid;
+  cursor: pointer;
+  color: #fd719c;
+  font-size: 16px;
+  z-index: 10000;
+  right: -30px;
+  top:30%;
+  transform: translateY(-50%);
+}
+
+
+
+
+
+
+@keyframes pulse {
+  0% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+@media (max-width: 1500px) {
+  .container.explain {
+    margin-right: 400px !important;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    width: 55%;
+    padding-top: 3%;
+  }
+
+  .chatWindow,
+  .activeChat {
+    width: 55%;
+  }
+
+  .handleIcons {
+    justify-content: center;
+    padding-right: 0;
+  }
+  .input {
+    margin-right: 0;
+  }
+  .settings {
+    left: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+    padding-top: 2%;
+  }
+  .container.explain {
+    margin-right: 0 !important;
+  }
+  .chatWindow,
+  .activeChat {
+    width: 80%;
+  }
+
+  .heading {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+
+  .quickQuestion {
+    width: 90%;
+    height: 50px;
+    font-size: 14px;
+  }
+  .filtersDate{
+    font-size: 14px;
+  }
+
+  .userMessage,
+  .botMessage {
+    max-width: 90%;
+    padding: 15px 20px;
+    font-size: 14px;
+  }
+
+  .pinIcon {
+    font-size: 18px;
+    left: -30px;
+  }
+
+  .arrowBtn{
+    display: flex;
+    border: 0.5px solid #fd719c;
+    width: 18px;
+    height: 18px;
+    
+  }
+
+  .chatCircle {
+    width: 18px;
+    height: 18px;
+    top: 70%;
+    right: -30px;
+  }
+
+  .centreCircle {
+    width: 10px;
+    height: 10px;
+  }
+  .inputs {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 70%;
+    padding-top: 1%;
+    overflow: auto;
+  }
+
+  .chatWindow{
+    width: 70%;
+  }
+  .activeChat{
+    width: 70%;
+  }
+  .filtersDate{
+    font-size: 12px;
+  }
+  .quickQuestion {
+    width: 60%;
+    height: 60px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .pinIcon {
+    font-size: 16px;
+    left: -20px;
+  }
+
+
+  .settings {
+    left: 0;
+    height: 50px;
+    width: 50px;
+  }
+
+  .input {
+    padding: 0 80px 0 50px;
+    font-size: 14px;
+    height: 50px;
+    width: 100%;
+  }
+
+  .handleIcons {
+    gap: 10px;
+    padding-right: 0;
+  }
+
+  .informations {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .information {
+    width: 80%;
+    height: 35px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .heading {
+    font-size: 18px;
+  }
+
+  .subHeading {
+    font-size: 14px;
+  }
+
+  .userMessage,
+  .botMessage {
+    padding: 8px 12px;
+    font-size: 10px;
+  }
+
+  .quickQuestion {
+    font-size: 10px;
+    height: 35px;
+  }
+
+  .settings {
+    height: 40px;
+    width: 40px;
+  }
+
+  .input {
+    font-size: 12px;
+    height: 40px;
+  }
+
+  .chatWindow {
+    height: 50%;
+  }
+
+  .handleIcons {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .information {
+    font-size: 10px;
+    height: 30px;
+  }
+}

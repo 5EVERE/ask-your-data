@@ -1,0 +1,10 @@
+{
+    "title": "Settings",
+    "profileSettings": "Profile Settings",
+    "chatSettings": "Chat Settings",
+    "logout": "Log out",
+    "workspaceAdminSettings": "Workspace admin settings",
+    "users": "Users",
+    "workspaceSettings": "Workspace settings",
+    "addDataToWorkspace": "Add data to workspace"
+  }

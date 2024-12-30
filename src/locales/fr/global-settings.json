@@ -1,0 +1,17 @@
+{
+    "breadcrumb": "Comptes > NeuraWave > Paramètres globaux",
+    "title": "Paramètres globaux",
+    "nameLabel": "Nom",
+    "accountLanguage": "Langue du compte",
+    "status": "Statut",
+    "languageOptions": {
+      "english": "Anglais",
+      "french": "Français",
+      "german": "Allemand"
+    },
+    "statusOptions": {
+      "active": "Actif",
+      "inactive": "Inactif"
+    }
+  }
+  

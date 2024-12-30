@@ -1,0 +1,25 @@
+{
+    "breadcrumb": {
+      "accounts": "Accounts",
+      "global": "Global settings",
+      "editUser": "Edit user"
+    },
+    "title": "Edit user",
+    "form": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email address",
+      "status": "Status",
+      "statusOptions": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "connectedWorkspaces": "Connected workspaces"
+    },
+    "buttons": {
+      "back": "Back",
+      "save": "Save settings",
+      "passwordReset": "Password reset"
+    }
+  }
+  

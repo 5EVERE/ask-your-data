@@ -1,0 +1,19 @@
+{
+    "formTitle": "AI Anpassungsformular",
+    "landingPage": "Was ist Ihre Landing Page?",
+    "landingPagePlaceholder": "Loremipsum.com",
+    "jobTitle": "Was ist Ihr Jobtitel?",
+    "jobTitlePlaceholder": "",
+    "businessGoals": "Was sind die 3 wichtigsten Geschäftsziele und strategischen Prioritäten Ihrer Organisation?",
+    "technologyAdoption": "Welches ist das aktuelle Niveau der Technologiebereitschaft und digitalen Reife Ihres Unternehmens?",
+    "technologyAdoptionPlaceholder": "",
+    "aiVisionBarriers": "Was sind die wichtigsten Barrieren bei der Umsetzung Ihrer KI-Vision?",
+    "aiVisionBarriersPlaceholder": "",
+    "aiVisionConcerns": "Gibt es weitere Bedenken bezüglich Ihrer KI-Vision oder -Strategie?",
+    "aiVisionConcernsPlaceholder": "",
+    "aiVersionEmail": "Wo sollen wir Ihre maßgeschneiderte KI-Version senden?",
+    "aiVersionEmailPlaceholder": "",
+    "previous": "Zurück",
+    "send": "Absenden"
+  }
+  

@@ -1,0 +1,171 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .panelContainer {
+    padding-top: 50px;
+    padding-left: 10%;
+    width: 25%;
+    height: 100%;
+    background-color: #eff9fc;
+  }
+  .settingsTitle {
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  
+  .linkButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 40px;
+  }
+  .linkButtons button {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: 107%;
+    height: 80px;
+    border: none;
+    background-color: transparent;
+    padding-left: 70px;
+    font-size: 17px;
+  }
+  .accounts{
+    margin-bottom: 10px;
+  }
+  .iconTitle {
+    position: absolute;
+    left: 7%;
+  
+    font-size: 30px;
+  }
+  
+  .active {
+    background-color: #fff !important;
+    font-weight: bold;
+  }
+  
+  .dropdown {
+    position: relative;
+    margin-bottom: 10px;
+    width: 107%;
+  }
+  
+  .dropdown select {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    background-color: white;
+    width: 92%;
+    cursor: pointer;
+    height: 45px;
+    appearance: none;
+  }
+
+ .globalS, .users, .addWorkspace{
+    width: 87% !important;
+    padding-left: 20px !important;
+ }
+  
+  @media (max-width: 992px) {
+    .container {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .panelContainer {
+      width: 100%;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 20px;
+      height: auto;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  
+    .settingsTitle {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+  
+    .linkButtons {
+      align-items: flex-start;
+    }
+  
+    .linkButtons button {
+      width: 100%;
+      padding-left: 60px;
+      height: 60px;
+      font-size: 16px;
+    }
+    .iconTitle {
+      left: 2%;
+    }
+  
+    .dropdown {
+      margin-bottom: 30px;
+    }
+  
+    .dropdown select {
+      width: 100%;
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .panelContainer {
+      padding: 10px 5%;
+      padding-top: 10px;
+    }
+  
+    .settingsTitle {
+      font-size: 16px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    .linkButtons button {
+      font-size: 14px;
+      height: 50px;
+      padding-left: 60px;
+    }
+  
+    .iconTitle {
+      left: 2%;
+    }
+    .dropdown select {
+      padding: 6px;
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .panelContainer {
+      padding: 5px 2%;
+    }
+  
+    .settingsTitle {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+  .linkButtons{
+      margin-bottom: 5px;
+  }
+    .linkButtons button {
+      font-size: 12px;
+      height: 45px;
+      margin-bottom: 5px;
+    }
+  
+    .dropdown select {
+      padding: 4px;
+      font-size: 10px;
+    }
+  }
+  

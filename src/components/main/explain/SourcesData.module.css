@@ -1,0 +1,96 @@
+.sourcesContainer {
+  font-family: Arial, sans-serif;
+  color: black;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sourceItem {
+  position: relative;
+  margin-bottom: 10px;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+.mainTitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #FD719C;
+  margin-bottom: 20px;
+}
+
+.sourceHeader {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+  background-color: #ffeef3;
+  overflow: hidden;
+}
+
+.sourceNumber {
+  position: absolute;
+  top: -13px;
+  left: -13px;
+  background-color: #FD719C;
+  color: #fff;
+  font-weight: bold;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.sourceTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: black;
+}
+.sourceContent {
+  background-color: #ffeef3;
+  padding: 0 0px 30px 0px;
+}
+
+.summaryRow {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 30px;
+}
+.summaryRow button {
+  border: none;
+  font-size: 16px;
+  width: 30%;
+  height: 50px;
+  background-color: #FFE0EB;
+  cursor: pointer;
+}
+
+.tabButton.active {
+  background-color: #ffeef3;
+  font-weight: bold;
+}
+
+.details {
+  font-size: 16px;
+  color: black;
+  padding: 0 20px;
+}
+
+.icon {
+  font-size: 14px;
+  color: #888;
+  transition: transform 0.3s ease;
+}
+
+.sourceItem.active .icon {
+  transform: rotate(180deg);
+}

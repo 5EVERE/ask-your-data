@@ -1,0 +1,20 @@
+{
+  "heading": "Ich wette, ich kann Ihnen helfen",
+  "subHeading": "Fragen Sie etwas wie",
+  "quickQuestions": "Schnelle Fragen",
+  "thankYouFeedback": "Danke für Ihr Feedback!",
+  "askDataPlaceholder": "Fragen Sie Ihre Daten",
+  "writePolicy": "Richtlinie schreiben",
+  "answerQuestion": "Frage beantworten",
+  "summarizeDocument": "Dokument zusammenfassen",
+  "modalSaveFilters": "Filter speichern",
+  "feedback_thank_you": "Danke für Ihr Feedback!",
+  "feedback_dislike_message": "Es wäre sehr hilfreich, wenn Sie ein paar Details mitteilen könnten, damit ich mich verbessern kann. Was hätten Sie von meiner Antwort erwartet?",
+  "letMeExplain": "Lassen Sie mich erklären",
+  "filters": {
+    "title": "Filter",
+    "writingStyle": "Schreibstil",
+    "dataSources": "Datenquellen",
+    "default": "-"
+  }
+}

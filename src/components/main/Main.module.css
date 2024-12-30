@@ -1,0 +1,23 @@
+/* .main {
+  position: relative;
+  height: 92%;
+  background-color: #dce9ed;
+  display: flex;
+} */
+.main {
+  height: 100%;
+  background-image: url('../../../public/img/Background.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  display: flex;
+  overflow-y: hidden;
+
+}
+
+@media (max-width: 768px) {
+  .mainContainer {
+    background-size: contain; 
+    height: auto; 
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Accounts",
+    "tableHeaders": {
+      "accountName": "Account name",
+      "status": "Status"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "newAccountButton": "+ Account",
+    "accounts": [
+      { "name": "NeuraWave", "status": "active" },
+      { "name": "LuminoCore", "status": "active" },
+      { "name": "Orisys Enterprises", "status": "inactive" },
+      { "name": "BlazeHorizon", "status": "active" },
+      { "name": "CrimsonPeak Ventures", "status": "inactive" },
+      { "name": "Pivona Solutions", "status": "active" },
+      { "name": "Triton Labs", "status": "active" }
+    ]
+  }
+  

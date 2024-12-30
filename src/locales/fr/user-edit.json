@@ -1,0 +1,25 @@
+{
+    "breadcrumb": {
+      "accounts": "Comptes",
+      "global": "Paramètres globaux",
+      "editUser": "Modifier l'utilisateur"
+    },
+    "title": "Modifier l'utilisateur",
+    "form": {
+      "firstName": "Prénom",
+      "lastName": "Nom de famille",
+      "email": "Adresse e-mail",
+      "status": "Statut",
+      "statusOptions": {
+        "active": "Actif",
+        "inactive": "Inactif"
+      },
+      "connectedWorkspaces": "Espaces de travail connectés"
+    },
+    "buttons": {
+      "back": "Retour",
+      "save": "Enregistrer les paramètres",
+      "passwordReset": "Réinitialiser le mot de passe"
+    }
+  }
+  

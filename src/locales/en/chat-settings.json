@@ -1,0 +1,24 @@
+{
+  "title": "Chat Settings",
+  "savedNotification": "Saved",
+  "precisionThreshold": "Precision threshold",
+  "language": "Language",
+  "systemRole": "System Role",
+  "options": {
+    "precision": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "languages": {
+      "english": "English",
+      "french": "French",
+      "german": "German"
+    },
+    "roles": {
+      "legalExpert": "Legal affairs expert",
+      "legalAdvisor": "Legal advisor",
+      "complianceManager": "Compliance manager"
+    }
+  }
+}

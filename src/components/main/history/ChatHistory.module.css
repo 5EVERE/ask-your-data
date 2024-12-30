@@ -1,0 +1,226 @@
+.container {
+  width: 25%;
+  height: calc(100vh - 80px);
+}
+
+.panelContainer {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  left: -22%;
+  width: 30%;
+  height: 92%;
+  transition: left 0.3s ease;
+  z-index: 1;
+}
+
+.toggButtons {
+  transform: translateY(-50%);
+  width: 100%;
+  margin-left: 50px;
+  z-index: 1000;
+}
+.toggleButton {
+  position: absolute;
+  width: 150px;
+  font-size: 30px;
+  color: black;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.newChat{
+  position: absolute;
+  font-size: 30px;
+  top: -70px;
+  left: 55px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.panel {
+  width: 100%;
+  height: 100%;
+  background-color: #eff9fc;
+  padding: 20px 50px 5px 30px;
+}
+
+.panelContainer.open {
+  left: 0;
+  height: 92%;
+}
+.panelContainer.open .toggButtons{
+  margin-left: 50px;
+}
+.panelTitle {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+@media(max-width: 1680px){
+  .panelContainer{
+    left: -26%;
+  }
+  .toggButtons{
+    width: 150px
+  }
+}
+@media(max-width: 1400px){
+  .panelContainer{
+    left: -28%;
+  }
+}
+@media(max-width: 1300px){
+  .panelContainer{
+    left: -30%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .panelContainer {
+    left: -30%;
+  }
+
+
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 35%;
+    height: calc(100vh - 60px);
+  }
+
+  .panelContainer {
+    left: -40%;
+    width: 60%;
+    height: 92%;
+  }
+
+  .panel {
+    padding: 15px 10px 5px 20px;
+  }
+
+  .toggButtons {
+    width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 50%;
+    height: calc(100vh - 50px);
+  }
+
+  .panelContainer {
+    left: -100%;
+    width: 80%;
+    height: 92%;
+  }
+
+  .panelContainer.open {
+    left: 0;
+  }
+  .panelContainer.open .toggButtons{
+    left: 22%;
+  }
+
+  .panel {
+    width: 67%;
+    padding: 10px;
+  }
+
+  .panelTitle {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .toggleButton {
+    font-size: 24px;
+  }
+  .newChat{
+    font-size: 24px;
+    top: 40px;
+    left: 60px;
+  }
+
+  .toggButtons {
+    position: fixed; 
+    top: 10%;
+    left: -10%; 
+    z-index: 1000; 
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    height: calc(100vh - 40px);
+  }
+
+ 
+  .panelContainer {
+    left: -70%;
+    width: 100%;
+    height: 10%;
+  }
+
+  .panelContainer.open {
+    left: 0;
+    width: 500px;
+    height: 92%
+  }
+  .panelContainer.open .toggButtons{
+    left: 40%;
+  }
+
+  .panel {
+    padding: 10px 5px;
+  }
+
+  .panelTitle {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .toggButtons{
+    left: -20%
+  }
+
+  .toggleButton, .newChat {
+    font-size: 20px;
+  }
+
+
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 100%;
+    height: calc(100vh - 30px);
+  }
+
+  .panelContainer {
+    left: -100%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .panel {
+    padding: 5px;
+  }
+
+  .panelTitle {
+    font-size: 10px;
+    margin-bottom: 3px;
+  }
+
+  .toggleButton, .newChat {
+    font-size: 18px;
+  }
+
+  .toggButtons {
+    width: 80%;
+  }
+  .panelContainer.open .toggButtons{
+    left: 35%;
+  }
+}

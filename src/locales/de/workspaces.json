@@ -1,0 +1,15 @@
+{
+    "title": "Arbeitsbereiche",
+    "tableHeader": {
+      "workspaceName": "Name des Arbeitsbereichs"
+    },
+    "workspacesList": {
+      "leadGeneration": "Leadgenerierung und Marketing",
+      "insuranceManagement": "Versicherungsmanagement",
+      "contractManagement": "Vertragsmanagement",
+      "policyGuidance": "Richtlinien- und Regulierungshinweise",
+      "billingPayments": "Abrechnung und Zahlungen"
+    },
+    "addWorkspaceButton": "Arbeitsbereich hinzufügen"
+  }
+  

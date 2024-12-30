@@ -1,0 +1,137 @@
+{
+  "explanation": "Based on your company's data volume, industry standards, and current cyber risk exposure, a cyber liability coverage of \u20ac3 million to \u20ac5 million is recommended.",
+
+  "knowledge_graph": {
+    "entities": [
+      {
+        "attributes": {
+          "age": 30,
+          "occupation": "Engineer"
+        },
+        "id": "1",
+        "name": "Alice",
+        "type": "Person"
+      },
+      {
+        "attributes": {
+          "industry": "Technology"
+        },
+        "id": "2",
+        "name": "TechCorp",
+        "type": "Company"
+      },
+      {
+        "attributes": {
+          "industry": "Physics"
+        },
+        "id": "3",
+        "name": "PyCharm",
+        "type": "Technical"
+      },
+      {
+        "attributes": {
+          "age": 30,
+          "occupation": "Engineer"
+        },
+        "id": "4",
+        "name": "Kilian",
+        "type": "Person"
+      },
+      {
+        "attributes": {
+          "industry": "Something"
+        },
+        "id": "5",
+        "name": "Liam",
+        "type": "CompanyU"
+      },
+      {
+        "attributes": {
+          "industry": "Industrial"
+        },
+        "id": "6",
+        "name": "Demo",
+        "type": "Water"
+      }
+    ],
+    "relationships": [
+      {
+        "attributes": {
+          "since": "2015"
+        },
+        "source": "1",
+        "target": "2",
+        "type": "works_at"
+      },
+      {
+        "attributes": {
+          "since": "2018"
+        },
+        "source": "1",
+        "target": "3",
+        "type": "learn_at"
+      },
+      {
+        "attributes": {
+          "since": "2018"
+        },
+        "source": "4",
+        "target": "5",
+        "type": "watch_at"
+      },
+      {
+        "attributes": {
+          "since": "2018"
+        },
+        "source": "3",
+        "target": "6",
+        "type": "divide_at"
+      },
+      {
+        "attributes": {
+          "since": "2018"
+        },
+        "source": "2",
+        "target": "4",
+        "type": "want_at"
+      }
+    ]
+  },
+
+  "reliability_score": 70,
+  "response_id": 1,
+  "sources": [
+    {
+      "citation": "Lorem ipsum dolor sit amet",
+      "excerpt": "Consectetur adipiscing elit.",
+      "id": 1,
+      "source": "Source A"
+    },
+    {
+      "citation": "Nunc non pellentesque elit",
+      "excerpt": "Facilisis semper libero.",
+      "id": 2,
+      "source": "Source B"
+    }
+  ],
+  "uncertainties": [
+    {
+      "excerpt": "Lorem ipsum dolor sit amet",
+      "id": 1,
+      "sources": "Source A",
+      "summary": "Lack of Specific Company Data"
+    },
+    {
+      "excerpt": "Nunc non pellentesque elit",
+      "id": 2,
+      "sources": "Source B",
+      "summary": "Uncertainty in Third-Party Agreements"
+    }
+  ],
+
+  "recommendations": [
+    "What are the compliance requirements for data retention in the EU?",
+    "Can you explain the key points of our privacy policy?",
+    "What are the legal risks of implementing AI in our business?"
+  ]
+}

@@ -1,0 +1,188 @@
+.optionContainer{
+    width: 75%;
+    height: 100%;
+    padding-top: 30px;
+    padding-left: 15%;
+}
+.container {
+    padding: 20px 40px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+  }
+  
+  .breadcrumb {
+    font-size: 0.9rem;
+    color:#0A9DC1;
+    margin-bottom: 50px;
+  }
+  
+  .highlight {
+    color: #0A9DC1;
+    font-weight: 500;
+  }
+  
+ 
+.optionTitle{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+  .settings {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .checkboxContainer {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .checkboxContainer input {
+    display: none;
+  }
+  
+  .customCheckbox {
+    width: 18px;
+    height: 18px;
+    border: 1.5px solid black;
+    margin-right: 10px;
+    display: inline-block;
+    position: relative;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+  }
+  
+  .checkboxContainer input:checked + .customCheckbox {
+    background-color: #C6E2E9;
+    border-color: black
+  }
+  @media (max-width: 1200px) {
+    .optionContainer {
+      width: 85%;
+      padding-left: 10%;
+      padding-top: 20px;
+    }
+  
+    .container {
+      padding: 15px 20px;
+    }
+  
+    .optionTitle {
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+  
+    .breadcrumb {
+      font-size: 0.85rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .optionContainer {
+      width: 90%;
+      padding-left: 5%;
+      padding-top: 10px;
+    }
+  
+    .container {
+      padding: 10px 15px;
+    }
+  
+    .optionTitle {
+      font-size: 15px;
+      margin-bottom: 20px;
+    }
+  
+    .breadcrumb {
+      font-size: 0.8rem;
+      margin-bottom: 30px;
+    }
+  
+    .customCheckbox {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .optionContainer {
+      width: 100%;
+      padding-left: 0;
+      padding-top: 10px;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  
+    .optionTitle {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+  
+    .breadcrumb {
+      font-size: 0.75rem;
+      margin-bottom: 20px;
+    }
+  
+    .customCheckbox {
+      width: 14px;
+      height: 14px;
+    }
+  
+    .checkboxContainer {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 5px;
+    }
+  
+    .optionContainer {
+      width: 100%;
+      padding-top: 5px;
+    }
+  
+    .optionTitle {
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+  
+    .breadcrumb {
+      font-size: 0.7rem;
+      margin-bottom: 15px;
+    }
+  
+    .customCheckbox {
+      width: 12px;
+      height: 12px;
+    }
+  
+    .checkboxContainer {
+      font-size: 0.7rem;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .optionTitle {
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
+  
+    .breadcrumb {
+      font-size: 0.65rem;
+    }
+  
+    .customCheckbox {
+      width: 10px;
+      height: 10px;
+    }
+  
+    .checkboxContainer {
+      font-size: 0.6rem;
+    }
+  }

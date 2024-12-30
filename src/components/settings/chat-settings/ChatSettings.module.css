@@ -1,0 +1,160 @@
+.optionContainer {
+  width: 75%;
+  height: 100%;
+  padding-top: 100px;
+  padding-left: 15%;
+}
+
+.titleContainer {
+  margin-bottom: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.optionTitle {
+  font-size: 17px;
+  font-weight: bold;
+
+  margin-right: 30px;
+}
+
+.dropdown {
+  position: relative;
+  margin-right: 100px;
+}
+
+.dropdown select {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  background-color: #eff9fc;
+  width: 120px;
+  cursor: pointer;
+  height: 45px;
+  appearance: none;
+}
+.optionSelect label {
+  display: block;
+  width: 25%;
+}
+
+.optionSelect {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.language {
+  width: 150px !important;
+}
+.role {
+  width: 240px !important;
+}
+
+.savedNotification {
+  color: #28a745;
+  font-size: 14px;
+  font-weight: bold;
+  animation: fadeInOut 2s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .optionContainer {
+    width: 85%;
+    padding-left: 10%;
+    padding-top: 60px;
+  }
+
+  .titleContainer {
+    margin-bottom: 50px;
+  }
+  .optionTitle {
+    font-size: 16px;
+  }
+
+  .dropdown {
+    margin-right: 50px;
+  }
+
+  .dropdown select {
+    width: 100px;
+    font-size: 14px;
+  }
+
+  .language {
+    width: 130px !important;
+  }
+
+  .role {
+    width: 200px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .optionContainer {
+    width: 95%;
+    padding-left: 5%;
+    padding-top: 40px;
+  }
+
+  .titleContainer {
+    margin-bottom: 40px;
+  }
+
+  .optionTitle {
+    font-size: 15px;
+  }
+
+  .dropdown {
+    margin-right: 30px;
+  }
+
+  .dropdown select {
+    width: 90px;
+    font-size: 13px;
+  }
+
+  .language {
+    width: 120px !important;
+  }
+
+  .role {
+    width: 180px !important;
+  }
+}
+@media (max-width: 480px) {
+  .titleContainer {
+    margin-bottom: 20px;
+  }
+  .optionTitle {
+    font-size: 12px;
+  }
+  .optionSelect label {
+    margin-right: 30px;
+    font-size: 12px;
+  }
+  .dropdown select {
+    font-size: 11px;
+    padding: 6px;
+  }
+
+  .optionContainer {
+    padding-top: 10px;
+  }
+}

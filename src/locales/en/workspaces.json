@@ -1,0 +1,15 @@
+{
+    "title": "Workspaces",
+    "tableHeader": {
+      "workspaceName": "Workspace name"
+    },
+    "workspacesList": {
+      "leadGeneration": "Lead generation and marketing",
+      "insuranceManagement": "Insurance management",
+      "contractManagement": "Contract management",
+      "policyGuidance": "Policy and regulation guidance",
+      "billingPayments": "Billing and payments"
+    },
+    "addWorkspaceButton": "Add workspace"
+  }
+  

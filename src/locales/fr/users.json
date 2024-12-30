@@ -1,0 +1,17 @@
+{
+    "title": "Utilisateurs",
+    "tableHeaders": {
+      "firstName": "Prénom",
+      "lastName": "Nom de famille",
+      "status": "Statut",
+      "workspaces": "Espaces de travail"
+    },
+    "status": {
+      "active": "Actif",
+      "inactive": "Inactif"
+    },
+    "newUserButton": "+ Nouvel utilisateur",
+    "edit": "Modifier l'utilisateur",
+    "delete": "Supprimer l'utilisateur"
+  }
+  

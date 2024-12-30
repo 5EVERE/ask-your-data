@@ -1,0 +1,22 @@
+{
+    "heading": "Je parie que je peux vous aider",
+    "subHeading": "Demandez quelque chose comme",
+    "quickQuestions": "Questions rapides",
+    "thankYouFeedback": "Merci pour vos commentaires !",
+    "askDataPlaceholder": "Demandez vos données",
+    "writePolicy": "Écrire la politique",
+    "answerQuestion": "Répondre à la question",
+    "summarizeDocument": "Résumer le document",
+    "modalSaveFilters": "Sauvegarder les filtres",
+    "feedback_thank_you": "Merci pour vos commentaires !",
+    "feedback_dislike_message": "Il serait grandement apprécié que vous puissiez partager plus de détails, afin que je puisse m'améliorer. Qu'attendiez-vous de ma réponse ?",
+    "feedback_placeholder": "Quelques améliorations...",
+    "letMeExplain": "Laissez-moi vous expliquer",
+    "filters": {
+    "title": "Filtres",
+    "writingStyle": "Style d'écriture",
+    "dataSources": "Sources de données",
+    "default": "-"
+  }
+  }
+  

@@ -1,0 +1,18 @@
+{
+    "formTitle": "AI Adaptation Form",
+    "landingPage": "What is your landing page?",
+    "landingPagePlaceholder": "Loremipsum.com",
+    "jobTitle": "What is your job title?",
+    "jobTitlePlaceholder": "",
+    "businessGoals": "What are the top 3 primary business goals and strategic priorities of your organization?",
+    "technologyAdoption": "What is the company's current level of technology adoption and digital maturity?",
+    "technologyAdoptionPlaceholder": "",
+    "aiVisionBarriers": "What are the key barriers to implementing your AI Vision?",
+    "aiVisionBarriersPlaceholder": "",
+    "aiVisionConcerns": "Any other concerns related to your AI Vision or AI Strategy?",
+    "aiVisionConcernsPlaceholder": "",
+    "aiVersionEmail": "Where should we send your tailored AI Version?",
+    "aiVersionEmailPlaceholder": "",
+    "previous": "Previous",
+    "send": "Send"
+  }

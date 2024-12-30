@@ -1,0 +1,23 @@
+{
+    "breadcrumb": "Workspaces",
+    "addWorkspace": "Add workspace",
+    "workspaceName": "Workspace name",
+    "workspaceAdmins": "Workspace admins",
+    "addWorkspaceAdmin": "Add workspace admin",
+    "adminEmailPlaceholder": "Email address of admin",
+    "addButton": "Add",
+    "knowledgeGraph": "Knowledge graph",
+    "knowledgeGraph1": "Knowledge graph 1",
+    "knowledgeGraph2": "Knowledge graph 2",
+    "workspaceType": "Workspace type",
+    "private": "Private",
+    "public": "Public",
+    "backButton": "Back",
+    "saveButton": "Add workspace",
+    "workspacesList": {
+      "leadGeneration": "Lead generation and marketing",
+      "insuranceManagement": "Insurance management",
+      "contractManagement": "Contract management"
+    }
+  }
+  

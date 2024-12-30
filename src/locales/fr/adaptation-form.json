@@ -1,0 +1,19 @@
+{
+    "formTitle": "Formulaire d'adaptation AI",
+    "landingPage": "Quelle est votre page d'atterrissage ?",
+    "landingPagePlaceholder": "Loremipsum.com",
+    "jobTitle": "Quel est votre titre de travail ?",
+    "jobTitlePlaceholder": "",
+    "businessGoals": "Quels sont les 3 principaux objectifs commerciaux et priorités stratégiques de votre organisation ?",
+    "technologyAdoption": "Quel est le niveau actuel d'adoption technologique et de maturité numérique de l'entreprise ?",
+    "technologyAdoptionPlaceholder": "",
+    "aiVisionBarriers": "Quels sont les principaux obstacles à la mise en œuvre de votre vision de l'IA ?",
+    "aiVisionBarriersPlaceholder": "",
+    "aiVisionConcerns": "D'autres préoccupations liées à votre vision de l'IA ou à votre stratégie IA ?",
+    "aiVisionConcernsPlaceholder": "",
+    "aiVersionEmail": "Où devons-nous envoyer votre version personnalisée de l'IA ?",
+    "aiVersionEmailPlaceholder": "",
+    "previous": "Précédent",
+    "send": "Envoyer"
+  }
+  

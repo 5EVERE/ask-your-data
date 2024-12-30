@@ -1,0 +1,23 @@
+{
+    "breadcrumb": "Arbeitsbereiche",
+    "addWorkspace": "Arbeitsbereich hinzufügen",
+    "workspaceName": "Name des Arbeitsbereichs",
+    "workspaceAdmins": "Administratoren des Arbeitsbereichs",
+    "addWorkspaceAdmin": "Administrator hinzufügen",
+    "adminEmailPlaceholder": "E-Mail-Adresse des Administrators",
+    "addButton": "Hinzufügen",
+    "knowledgeGraph": "Wissensgraph",
+    "knowledgeGraph1": "Wissensgraph 1",
+    "knowledgeGraph2": "Wissensgraph 2",
+    "workspaceType": "Arbeitsbereichstyp",
+    "private": "Privat",
+    "public": "Öffentlich",
+    "backButton": "Zurück",
+    "saveButton": "Arbeitsbereich hinzufügen",
+    "workspacesList": {
+      "leadGeneration": "Lead-Generierung und Marketing",
+      "insuranceManagement": "Versicherungsverwaltung",
+      "contractManagement": "Vertragsmanagement"
+    }
+  }
+  

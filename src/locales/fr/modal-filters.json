@@ -1,0 +1,20 @@
+{
+    "promptSettings": "Paramètres de l'invite",
+    "writingStyle": "Style d'écriture",
+    "dataSources": "Sources de données",
+    "relevancyOfData": "Pertinence des données",
+    "newer": "Plus récent",
+    "heavilyReferenced": "Fortement référencé",
+    "notPreferred": "(non préféré)",
+    "styles": {
+      "concise": "Concis",
+      "explanatory": "Explicatif",
+      "formal": "Formel",
+      "creative": "Créatif"
+    },
+    "sources": {
+      "workspace": "Données de l'espace de travail",
+      "generalAI": "Connaissance générale de l'IA"
+    }
+  }
+  

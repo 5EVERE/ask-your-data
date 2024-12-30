@@ -1,0 +1,20 @@
+{
+    "promptSettings": "Prompt settings",
+    "writingStyle": "Writing style",
+    "dataSources": "Data sources",
+    "relevancyOfData": "Relevancy of data",
+    "newer": "Newer",
+    "heavilyReferenced": "Heavily referenced",
+    "notPreferred": "(not preferred)",
+    "styles": {
+      "concise": "Concise",
+      "explanatory": "Explanatory",
+      "formal": "Formal",
+      "creative": "Creative"
+    },
+    "sources": {
+      "workspace": "Workspace data",
+      "generalAI": "General AI knowledge"
+    }
+  }
+  

@@ -1,0 +1,252 @@
+.optionContainer {
+  width: 800px;
+  height: 100%;
+  padding-top: 30px;
+  padding-left: 15%;
+
+}
+.container {
+  padding: 20px 40px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+
+.breadcrumb {
+  font-size: 0.9rem;
+  color: #0a9dc1;
+  margin-bottom: 50px;
+}
+
+.highlight {
+  color: #0a9dc1;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.settingRow {
+  margin-bottom: 30px;
+}
+
+.settingRow label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.inputBox {
+  background-color: #eff9fc;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.dropdownContainer {
+  position: relative;
+}
+
+.selectBox {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #eff9fc;
+  font-size: 16px;
+  appearance: none;
+}
+
+.arrowIcon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #000;
+  pointer-events: none;
+}
+
+.userLabel {
+  display: block;
+  margin-bottom: 15px;
+}
+.userLabelAdd {
+  width: 600px;
+  display: flex;
+  align-items: center;
+}
+.userLabelAdd input {
+  margin-right: 10px;
+}
+
+.userInput,
+.userSelect {
+  width: 500px;
+  height: 45px;
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: none;
+  background-color: #eff9fc;
+}
+
+.workspaces {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 40px;
+  width: 500px;
+}
+
+.workspaceSelected {
+  height: 45px;
+  padding: 8px 10px;
+  cursor: pointer;
+  background-color: transparent;
+  background-color: #eff9fc;
+  border: none;
+}
+
+.buttons {
+  display: flex;
+  width: 500px;
+}
+
+.backButton,
+.saveButton,
+.passwordButton {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  height: 45px;
+}
+.buttons .backButton{
+    width: 150px;
+}
+
+.backButton {
+  background-color: #eff9fc;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+.buttons .saveButton{
+    width: 200px;
+}
+
+.saveButton {
+  margin-top: 5px;
+  background-color: #0a9dc1;
+  color: #fff;
+}
+
+.passwordButton {
+  background-color: #eff9fc;
+}
+
+
+.table {
+    width: 500px;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    margin-bottom: 50px;
+    max-height: 60vh;
+    overflow-y: auto; 
+    display: block;
+  }
+
+  .table th, .table td {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #E0E0E0;
+  }
+
+
+  .table td {
+    color: black;
+  }
+  
+  .editIcon {
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .table tr {
+    background-color: #EFF9FC;
+  }
+  
+
+@media (max-width: 1024px) {
+  .optionContainer {
+    width: 60%;
+    padding-left: 5%;
+  }
+  .container {
+    padding: 20px;
+  }
+  .title {
+    font-size: 1.1rem;
+  }
+  .breadcrumb {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .optionContainer {
+    width: 90%;
+    padding-left: 5%;
+    padding-top: 15px;
+  }
+  .container {
+    padding: 10px 15px;
+  }
+  .title {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  .settingRow {
+    margin-bottom: 20px;
+  }
+  .breadcrumb {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
+  .inputBox,
+  .selectBox {
+    padding: 8px;
+    font-size: 14px;
+  }
+  .arrowIcon {
+    font-size: 14px;
+    right: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .optionContainer {
+    width: 100%;
+    padding: 0 5%;
+    padding-top: 10px;
+  }
+  .container {
+    padding: 10px;
+  }
+  .title {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+  .breadcrumb {
+    font-size: 0.7rem;
+  }
+  .inputBox,
+  .selectBox {
+    padding: 6px;
+    font-size: 12px;
+  }
+  .arrowIcon {
+    font-size: 12px;
+    right: 8px;
+  }
+}

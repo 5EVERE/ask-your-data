@@ -1,0 +1,17 @@
+{
+    "breadcrumb": "Konten > NeuraWave > Globale Einstellungen",
+    "title": "Globale Einstellungen",
+    "nameLabel": "Name",
+    "accountLanguage": "Kontosprache",
+    "status": "Status",
+    "languageOptions": {
+      "english": "Englisch",
+      "french": "Französisch",
+      "german": "Deutsch"
+    },
+    "statusOptions": {
+      "active": "Aktiv",
+      "inactive": "Inaktiv"
+    }
+  }
+  

@@ -1,0 +1,20 @@
+{
+    "promptSettings": "Eingabeaufforderung Einstellungen",
+    "writingStyle": "Schreibstil",
+    "dataSources": "Datenquellen",
+    "relevancyOfData": "Datenrelevanz",
+    "newer": "Neuer",
+    "heavilyReferenced": "Stark referenziert",
+    "notPreferred": "(nicht bevorzugt)",
+    "styles": {
+      "concise": "Konzise",
+      "explanatory": "Erklärend",
+      "formal": "Formell",
+      "creative": "Kreativ"
+    },
+    "sources": {
+      "workspace": "Arbeitsbereichsdaten",
+      "generalAI": "Allgemeines KI-Wissen"
+    }
+  }
+  
