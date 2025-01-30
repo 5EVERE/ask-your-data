@@ -42,7 +42,7 @@ function App() {
   useEffect(() => {
     const user = localStorage.getItem('token'); // Retrieve token from localStorage
     if (!user) {
-      navigate('/auth'); // Redirect to authentication page if not authenticated
+      navigate('/chat'); // Redirect to authentication page if not authenticated
     }
   }, [navigate]);
 
