@@ -18,7 +18,7 @@ import {
   useNavigate,
 } from 'react-router-dom';
 import SuperAdmin from './components/super-admin/SuperAdmin';
-import EditUser from './components/super-admin/users/EditUser';
+
 
 export interface Workspace {
   name: string;
