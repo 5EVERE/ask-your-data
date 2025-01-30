@@ -114,7 +114,7 @@ function App() {
         <Route path="/auth" element={<Auth />} />
 
         {/* Redirect root path '/' to '/auth' */}
-        <Route path="/" element={<Navigate to="/auth" />} />
+        <Route path="/" element={<Navigate to="/chat" />} />
 
         {/* Catch-All Route: Redirect any unknown paths to '/chat' */}
         <Route path="*" element={<Navigate to="/chat" />} />
